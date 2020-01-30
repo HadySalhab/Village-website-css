@@ -12,14 +12,16 @@ a{
 }
 p{
     margin:10px 0;  
-    line-height: 1.3em;
+    line-height: 1.7em;
 }
 .container{
     max-width:1200px;
     margin:auto;
     height:100%;
     position: relative;
+    overflow: auto;
 }
+
 /* Util */
 .bg-green{
     background:rgb(75, 100, 72)
@@ -36,10 +38,6 @@ p{
 }
 
 /* navbar */
-
-#navbar{
-    overflow: auto;
-}
 
 
 #navbar .logo a {
@@ -68,13 +66,36 @@ p{
     background: url('../img/main.jpg') top 2% center/cover no-repeat;
     height:600px;
 }
+
 #showcase .showcase-content{
 position: absolute;
-top:30%;
-right:0;
+top:10%;
+right:3rem;
+text-align: ;
 background:rgba(170, 160, 150,0.8);
 border-radius: 10px;
 display: inline-block;
 width: 300px;
 padding:1rem;
+}
+
+/* info */
+#home-info{
+    width: 100%;
+    margin: auto;
+}
+
+#home-info .home-info__container{
+    bottom:10rem;
+    padding:2rem 2rem;
+    background:rgba(192, 199, 132, 0.5);
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    border-radius: 20px;  
+}
+#home-info img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
 }
