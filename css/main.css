@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+/* Util */
+.bg-green{
+    background:rgb(75, 100, 72)
+}
+
+#navbar{
+    overflow: auto;
+}
+
+
+#navbar .logo a {
+    color:white;
+    float:left;
+    padding:1.2rem;
+    font-size: 1.4rem;
+}
+
+#navbar ul{
+    float:right;
+    padding:1.2rem;
+}
+
+#navbar ul li{
+    float:left;
+    margin-right: 3rem;
+}
+
+#navbar ul li a{ 
+    font-size: 1.4rem;
+    color:white;
+}
