@@ -10,14 +10,32 @@ li{
 a{
     text-decoration: none;
 }
+p{
+    margin:10px 0;  
+    line-height: 1.3em;
+}
 .container{
     max-width:1200px;
     margin:auto;
+    height:100%;
+    position: relative;
 }
 /* Util */
 .bg-green{
     background:rgb(75, 100, 72)
 }
+
+.text-primary{
+    color:#3b473a;
+}
+.btn{
+    color:white;
+    background:#3b473a;
+    padding:0.5rem 1rem;
+    display: inline-block;
+}
+
+/* navbar */
 
 #navbar{
     overflow: auto;
@@ -44,4 +62,19 @@ a{
 #navbar ul li a{ 
     font-size: 1.4rem;
     color:white;
+}
+
+#showcase{
+    background: url('../img/main.jpg') top 2% center/cover no-repeat;
+    height:600px;
+}
+#showcase .showcase-content{
+position: absolute;
+top:30%;
+right:0;
+background:rgba(170, 160, 150,0.8);
+border-radius: 10px;
+display: inline-block;
+width: 300px;
+padding:1rem;
 }
