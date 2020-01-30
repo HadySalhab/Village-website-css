@@ -26,6 +26,9 @@ p{
 .bg-green{
     background:rgb(75, 100, 72)
 }
+.bg-dark{
+    background:rgba(79, 224, 50, 0.212)
+}
 
 .text-primary{
     color:#3b473a;
@@ -64,14 +67,13 @@ p{
 
 #showcase{
     background: url('../img/main.jpg') top 2% center/cover no-repeat;
-    height:600px;
+    height:700px;
 }
 
 #showcase .showcase-content{
 position: absolute;
 top:10%;
 right:3rem;
-text-align: ;
 background:rgba(170, 160, 150,0.8);
 border-radius: 10px;
 display: inline-block;
