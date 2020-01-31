@@ -16,13 +16,14 @@ padding:1.2rem;
 #navbar ul li{
     float:none;
     margin:0;
+    border-top: solid rgb(79, 80, 79) 1px;
 }
 #navbar ul li a{
     display: block;
     float:none;
     margin:0;
 }
-
+/* MAIN-showCase */
 #showcase{
     background: url('../img/main.jpg') top 2% center/cover no-repeat;
     height:300px;
@@ -36,4 +37,21 @@ padding:1.2rem;
     text-align: center;
     border-radius: 20px;  
     margin-bottom: 1rem;
+}
+
+#about-info{
+    height:100%;
+    padding:20px;
+}
+/* About Page */
+#about-info .info-left{
+    float:none;
+    display: block;
+    width:100%;
+    background:url('../img/village.jpg') center center/cover no-repeat;
+    height:300px;
+}
+#about-info .info-right{
+    float:none;
+    width:100%;
 }

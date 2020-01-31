@@ -132,6 +132,7 @@ padding:1rem;
 
 #about-info{
     height:400px;
+    padding:20px;
 }
 
 #about-info .info-left{
@@ -147,7 +148,7 @@ padding:1rem;
     width:50%;
     height:100%;
     text-align: center;
-    padding:70px 30px;
+    padding:30px 30px;
     overflow: hidden;
     vertical-align: middle;
     font-size: 1.3rem;
